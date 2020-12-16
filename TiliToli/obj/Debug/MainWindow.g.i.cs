@@ -41,15 +41,7 @@ namespace TiliToli {
     public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
         
-        #line 9 "..\..\MainWindow.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal TiliToli.MainWindow Jatek;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 17 "..\..\MainWindow.xaml"
+        #line 10 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button Button1;
         
@@ -57,7 +49,7 @@ namespace TiliToli {
         #line hidden
         
         
-        #line 18 "..\..\MainWindow.xaml"
+        #line 11 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button Button2;
         
@@ -65,7 +57,7 @@ namespace TiliToli {
         #line hidden
         
         
-        #line 19 "..\..\MainWindow.xaml"
+        #line 12 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button Button3;
         
@@ -73,7 +65,7 @@ namespace TiliToli {
         #line hidden
         
         
-        #line 20 "..\..\MainWindow.xaml"
+        #line 13 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button Button4;
         
@@ -81,7 +73,7 @@ namespace TiliToli {
         #line hidden
         
         
-        #line 21 "..\..\MainWindow.xaml"
+        #line 14 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button Button5;
         
@@ -89,7 +81,7 @@ namespace TiliToli {
         #line hidden
         
         
-        #line 22 "..\..\MainWindow.xaml"
+        #line 15 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button Button6;
         
@@ -97,7 +89,7 @@ namespace TiliToli {
         #line hidden
         
         
-        #line 23 "..\..\MainWindow.xaml"
+        #line 16 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button Button7;
         
@@ -105,7 +97,7 @@ namespace TiliToli {
         #line hidden
         
         
-        #line 24 "..\..\MainWindow.xaml"
+        #line 17 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button Button8;
         
@@ -113,7 +105,7 @@ namespace TiliToli {
         #line hidden
         
         
-        #line 25 "..\..\MainWindow.xaml"
+        #line 18 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button Button0;
         
@@ -151,84 +143,81 @@ namespace TiliToli {
             switch (connectionId)
             {
             case 1:
-            this.Jatek = ((TiliToli.MainWindow)(target));
-            return;
-            case 2:
             this.Button1 = ((System.Windows.Controls.Button)(target));
             
-            #line 17 "..\..\MainWindow.xaml"
+            #line 10 "..\..\MainWindow.xaml"
             this.Button1.Click += new System.Windows.RoutedEventHandler(this.Button1_Click);
             
             #line default
             #line hidden
             return;
-            case 3:
+            case 2:
             this.Button2 = ((System.Windows.Controls.Button)(target));
             
-            #line 18 "..\..\MainWindow.xaml"
+            #line 11 "..\..\MainWindow.xaml"
             this.Button2.Click += new System.Windows.RoutedEventHandler(this.Button1_Click);
             
             #line default
             #line hidden
             return;
-            case 4:
+            case 3:
             this.Button3 = ((System.Windows.Controls.Button)(target));
             
-            #line 19 "..\..\MainWindow.xaml"
+            #line 12 "..\..\MainWindow.xaml"
             this.Button3.Click += new System.Windows.RoutedEventHandler(this.Button1_Click);
             
             #line default
             #line hidden
             return;
-            case 5:
+            case 4:
             this.Button4 = ((System.Windows.Controls.Button)(target));
             
-            #line 20 "..\..\MainWindow.xaml"
+            #line 13 "..\..\MainWindow.xaml"
             this.Button4.Click += new System.Windows.RoutedEventHandler(this.Button1_Click);
             
             #line default
             #line hidden
             return;
-            case 6:
+            case 5:
             this.Button5 = ((System.Windows.Controls.Button)(target));
             
-            #line 21 "..\..\MainWindow.xaml"
+            #line 14 "..\..\MainWindow.xaml"
             this.Button5.Click += new System.Windows.RoutedEventHandler(this.Button1_Click);
             
             #line default
             #line hidden
             return;
-            case 7:
+            case 6:
             this.Button6 = ((System.Windows.Controls.Button)(target));
             
-            #line 22 "..\..\MainWindow.xaml"
+            #line 15 "..\..\MainWindow.xaml"
             this.Button6.Click += new System.Windows.RoutedEventHandler(this.Button1_Click);
             
             #line default
             #line hidden
             return;
-            case 8:
+            case 7:
             this.Button7 = ((System.Windows.Controls.Button)(target));
             
-            #line 23 "..\..\MainWindow.xaml"
+            #line 16 "..\..\MainWindow.xaml"
             this.Button7.Click += new System.Windows.RoutedEventHandler(this.Button1_Click);
             
             #line default
             #line hidden
             return;
-            case 9:
+            case 8:
             this.Button8 = ((System.Windows.Controls.Button)(target));
             
-            #line 24 "..\..\MainWindow.xaml"
+            #line 17 "..\..\MainWindow.xaml"
             this.Button8.Click += new System.Windows.RoutedEventHandler(this.Button1_Click);
             
             #line default
             #line hidden
             return;
-            case 10:
+            case 9:
             this.Button0 = ((System.Windows.Controls.Button)(target));
             
-            #line 25 "..\..\MainWindow.xaml"
+            #line 18 "..\..\MainWindow.xaml"
             this.Button0.Click += new System.Windows.RoutedEventHandler(this.Button1_Click);
             
             #line default

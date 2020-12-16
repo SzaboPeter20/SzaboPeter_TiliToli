@@ -5,15 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TiliToli"
         mc:Ignorable="d"
-        Title="TiliToli" Height="500" Width="340"
-        Name ="Jatek" Icon="Tilli-Toli_1.png">
+        Title="TiliToli" Height="470" Width="340">
     <Grid>
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black" Offset="0"/>
-                <GradientStop Color="#FFA20000" Offset="1"/>
-            </LinearGradientBrush>
-        </Grid.Background>
         <Button Content="1" Name="Button1" HorizontalAlignment="Left" Margin="15,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click"/>
         <Button Content="2" Name="Button2" HorizontalAlignment="Left" Margin="115,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click"/>
         <Button Content="3" x:Name="Button3" HorizontalAlignment="Left" Margin="215,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click"/>
@@ -23,8 +16,8 @@
         <Button Content="7" x:Name="Button7" HorizontalAlignment="Left" Margin="15,270,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click"/>
         <Button Content="8" x:Name="Button8" HorizontalAlignment="Left" Margin="115,270,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click"/>
         <Button Content="0" x:Name="Button0" HorizontalAlignment="Left" Margin="215,270,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" IsEnabled="False" IsHitTestVisible="False" Visibility="Hidden"/>
-        <Button Content="Új játék" HorizontalAlignment="Left" Margin="115,10,0,0" VerticalAlignment="Top" Width="100" Height="41"/>
-        <Label Content="Lépések száma:" HorizontalAlignment="Left" Height="37" Margin="115,422,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Új játék" HorizontalAlignment="Left" Margin="115,15,0,0" VerticalAlignment="Top" Width="100" Height="41"/>
+        <Label Content="Lépések száma:" HorizontalAlignment="Left" Height="28" Margin="115,392,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Window>
