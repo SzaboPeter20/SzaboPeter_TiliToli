@@ -15,6 +15,9 @@ using System.Windows.Shapes;
 
 namespace TiliToli
 {
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -43,9 +46,10 @@ namespace TiliToli
                 allas[nullaGombIndex] = allas[ezGombFelirat];
                 allas[ezGombFelirat] = 0;
 
+           
                 if (allas.SequenceEqual(kesz))
                 {
-
+                    
                 }
                 
             }
